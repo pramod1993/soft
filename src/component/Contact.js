@@ -55,6 +55,11 @@ const Contact = () => {
             </div>
         </div> 
       </div>
+      <div className="container">
+        <div className='w-full '>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.091739732266!2d85.36205097406483!3d25.734479609731938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed65a420570e15%3A0xa2d2622b0a33e4ae!2sPramod%20Singh%20(Bihari)!5e0!3m2!1sen!2sin!4v1698399587393!5m2!1sen!2sin" className='w-full h-56 mb-4' loading="lazy" ></iframe>
+        </div>
+      </div>
     </>
   )
 }

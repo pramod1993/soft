@@ -5,9 +5,9 @@ const Footer = () => {
     <>
       <div className='bg-cyan-600 p-3'>
         <div className="container">
-            <div className="md:grid-cols-4 grid gap-4  text-white">
+            <div className="md:grid-cols-4 grid gap-3  text-white mb-3">
                 <div>
-                    <ul>
+                    <ul className='p-0 m-0'>
                     <p><strong>Company</strong></p>
                         <li>
                             <a href="#" className=' text-white no-underline'>About Us</a>
@@ -24,7 +24,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <ul>
+                    <ul className='p-0 m-0'>
                     <p><strong>Resources</strong></p>
                         <li>
                             <a href="#" className=' text-white no-underline'>Illustrations</a>
@@ -38,7 +38,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <ul>
+                    <ul className='p-0 m-0'>
                     <p><strong>Help & Support</strong></p>
                         <li>
                             <a href="#" className=' text-white no-underline'>Contact Us</a>
@@ -55,7 +55,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <ul>
+                    <ul className='p-0 m-0'>
                     <p><strong>Legal</strong></p>
                         <li>
                             <a href="#" className=' text-white no-underline'>Terms & Conditions</a>
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='text-center border-t text-white '>
-                <p className='m-0'>All rights reserved. Copyright © 2023 Soft UI Design System</p>
+                <p className='m-0 pt-2'>All rights reserved. Copyright © 2023 Soft UI Design System</p>
             </div>
         </div>
       </div>
